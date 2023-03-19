@@ -1,0 +1,9 @@
+name: FishEnchantUnloader
+version: '${project.version}'
+main: yumcraft.fishenchantunloader.FishEnchantUnloader
+api-version: 1.19
+authors: [ AyolK,Azath ]
+commands:
+  EnchantUnloader:
+    aliases:
+      - FEU
