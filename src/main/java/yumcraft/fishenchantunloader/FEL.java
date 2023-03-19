@@ -21,6 +21,7 @@ public class FEL implements CommandExecutor {
     }
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        /*
         Player player = (Player) sender;
         player.sendRawMessage("hihihi");
         ItemStack itemStack = player.getInventory().getItemInMainHand();
@@ -28,6 +29,9 @@ public class FEL implements CommandExecutor {
         player.sendRawMessage(itemStack.getEnchantments().toString());
         FishEnchantUnloaderApi api= FishEnchantUnloaderApi.Factory.getTeleportAPI();
         //itemStack.getEnchantments().forEach((Enchantment,integer) -> api.UnloadEnchant(itemStack,Enchantment));
+        return false;
+        测试用
+         */
         return false;
     }
 }
